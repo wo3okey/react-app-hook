@@ -9,6 +9,8 @@ import ClickerRef from './use-ref/ClickerRef'
 import LoginRef from './use-ref/LoginRef'
 import Context from './use-context/Context'
 import Memo from './use-memo/Memo'
+import BoxGround from './use-callback/BoxGround'
+import Board from './use-reducer/Board'
 
 function App() {
   const [toggle, setToggle] = useState(false);
@@ -26,6 +28,8 @@ function App() {
     <LoginRef></LoginRef>
     <Context></Context>
     <Memo></Memo>
+    <BoxGround></BoxGround>
+    <Board></Board>
   </div>);
 }
 
